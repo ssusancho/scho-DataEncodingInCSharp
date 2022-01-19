@@ -190,14 +190,14 @@ After decrypting each message, add them below:
 
 ```
 1. You have decrypted this message!
-2. ?
-3. ?
-4. ?
-5. ?
-6. ?
-7. ?
-8. ?
-9. ?
+2. Don't forget to drink your ovalteen
+3. https://tiny.one/solution
+4. Did you hear what happened to the man who did not pay for his exorcism?
+5. He was repossessed.
+6. How does a penguin build its house?
+7. Igloos it together.
+8. Did you hear about the magician who was driving home?
+9. I heard she turned into a driveway.
 ```
 
 ## Submitting your Solution
