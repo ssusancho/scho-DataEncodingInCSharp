@@ -35,7 +35,7 @@ public class Cipher
         {
             //TODO: The following copies the message character by character.
             //      Instead, you should to encrypt each character using the shift
-            newMessage += c;
+            newMessage += (char)(c + shift);
         }
         return newMessage;
     }
