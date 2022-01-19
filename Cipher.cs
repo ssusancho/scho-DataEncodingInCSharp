@@ -19,8 +19,12 @@ public class Cipher
     /// <returns>The decrypted message</returns>
     public string Decrypt(string message)
     {
-        // TODO: Finish the Decrypt method
-        return null;
+       string newMessage = string.Empty;
+        foreach (char c in message)
+        {
+            newMessage += (char)(c - shift);
+        }
+        return newMessage;
     }
 
     /// <summary>
@@ -35,7 +39,7 @@ public class Cipher
         {
             //TODO: The following copies the message character by character.
             //      Instead, you should to encrypt each character using the shift
-            newMessage += c;
+            newMessage += (char)(c + shift);
         }
         return newMessage;
     }
